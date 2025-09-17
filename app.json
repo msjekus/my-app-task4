@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "myapptask4-scheme",
     "name": "my-app-task4",
     "slug": "my-app-task4",
     "version": "1.0.0",
@@ -24,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
